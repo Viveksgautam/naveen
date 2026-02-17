@@ -7,8 +7,7 @@ on:
 jobs:
  demo:
    runs-on: ubuntu-latest
-
-steps: 
- - name: welcome
-   run: echo "THIS is Done"
+   steps: 
+    - name: welcome
+      run: echo "THIS is Done"
   
