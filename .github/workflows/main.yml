@@ -1,0 +1,14 @@
+name: vivek gautam
+
+on: 
+ push:
+   branches: [ main ]
+
+jobs:
+ demo:
+   runs-on: ubuntu-latest
+
+steps:
+ - name: welcome
+   run: echo"THIS is Done"
+  
