@@ -8,7 +8,7 @@ jobs:
  demo:
    runs-on: ubuntu-latest
 
-steps:
+step:
  - name: welcome
    run: echo"THIS is Done"
   
